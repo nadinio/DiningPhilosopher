@@ -5,6 +5,8 @@ Public Class Form1
 
     Dim state(4) As Integer
     Dim sem(4) As Semaphore
+    Dim philPics(4) As PictureBox
+    Dim forkPics(4) As PictureBox
 
     Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
         Dim tot As Integer = 5 ' this is the total number of philosophers
@@ -22,6 +24,20 @@ Public Class Form1
             philosopher(i).trd.Start(philosopher(i))
         Next i
 
+        philPics(0) = Me.picPhil0
+        philPics(1) = Me.picPhil1
+        philPics(2) = Me.picPhil2
+        philPics(3) = Me.picPhil3
+        philPics(4) = Me.picPhil4
+
+        forkPics(0) = Me.picFork0
+        forkPics(1) = Me.picFork1
+        forkPics(2) = Me.picFork2
+        forkPics(3) = Me.picFork3
+        forkPics(4) = Me.picFork4
+
+
+
     End Sub
 
     Private Structure Philosopher
@@ -38,30 +54,39 @@ Public Class Form1
         Console.WriteLine("I am philosopher number " & info.number & " My left neighbor is " & left & " and right is " & right)
 
 
-
         Do
-            Thread.Sleep(1000)
+            Thread.Sleep(1500)
 
             Dim randomInt As Integer
             randomInt = GetRandom(1, 10)
             If (randomInt = 7) Then
                 state(info.number) = 1    ' philosopher is hungry
+                philPics(info.number).Image = My.Resources.hungry
+                Thread.Sleep(500)
                 Console.WriteLine("Philosopher number " & info.number & " is hungry! Going to try to eat...")
 
-                sem(left).WaitOne()        ' attempts left
+                sem(left).WaitOne()              ' attempts left
                 sem(info.number).WaitOne()       ' attempts right
 
                 state(info.number) = 2     ' is eating
+                philPics(info.number).Image = My.Resources.eating
+                forkPics(left).Image = Nothing
+                forkPics(info.number).Image = Nothing
                 Console.WriteLine("Philosopher number " & info.number & " is eating! " & left & " and " & right & " are blocked.")
 
                 Thread.Sleep(5000)         ' time to eat!
 
 
+                state(info.number) = 0      ' back to thinking
+                philPics(info.number).Image = My.Resources.thinking
+                forkPics(left).Image = My.Resources.fork
+                forkPics(info.number).Image = My.Resources.fork
+                Thread.Sleep(500)
                 sem(left).Release()         ' release left fork
                 sem(info.number).Release()        ' release right fork
                 Console.WriteLine("Philosopher number " & info.number & " has released his forks! " & left & " and " & right & " can eat now!")
 
-                state(info.number) = 0      ' back to thinking
+
             End If
         Loop
 

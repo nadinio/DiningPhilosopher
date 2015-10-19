@@ -118,22 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Smiley-eating" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Smiley-eating.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="thinking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thinking.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="food-outline-tools-tool-metal-kitchen-fork" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\food-outline-tools-tool-metal-kitchen-fork.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="eating" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eating.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="drooling-smiley" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\drooling-smiley.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fork" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fork.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="thinking-smiley-face-clip-art-448755" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\thinking-smiley-face-clip-art-448755.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="free-vector-fork-clip-art_103263_Fork_clip_art_hight" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\free-vector-fork-clip-art_103263_Fork_clip_art_hight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="food-outline-tools-tool-metal-kitchen-fork1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\food-outline-tools-tool-metal-kitchen-fork.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hungry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hungry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
