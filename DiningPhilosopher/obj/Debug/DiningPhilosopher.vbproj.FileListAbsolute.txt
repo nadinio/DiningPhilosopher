@@ -1,0 +1,11 @@
+D:\Workspace\DiningPhilosopher\DiningPhilosopher\bin\Debug\DiningPhilosopher.exe.config
+D:\Workspace\DiningPhilosopher\DiningPhilosopher\bin\Debug\DiningPhilosopher.exe
+D:\Workspace\DiningPhilosopher\DiningPhilosopher\bin\Debug\DiningPhilosopher.pdb
+D:\Workspace\DiningPhilosopher\DiningPhilosopher\bin\Debug\DiningPhilosopher.xml
+D:\Workspace\DiningPhilosopher\DiningPhilosopher\obj\Debug\DiningPhilosopher.vbprojResolveAssemblyReference.cache
+D:\Workspace\DiningPhilosopher\DiningPhilosopher\obj\Debug\DiningPhilosopher.Form1.resources
+D:\Workspace\DiningPhilosopher\DiningPhilosopher\obj\Debug\DiningPhilosopher.Resources.resources
+D:\Workspace\DiningPhilosopher\DiningPhilosopher\obj\Debug\DiningPhilosopher.vbproj.GenerateResource.Cache
+D:\Workspace\DiningPhilosopher\DiningPhilosopher\obj\Debug\DiningPhilosopher.exe
+D:\Workspace\DiningPhilosopher\DiningPhilosopher\obj\Debug\DiningPhilosopher.xml
+D:\Workspace\DiningPhilosopher\DiningPhilosopher\obj\Debug\DiningPhilosopher.pdb
