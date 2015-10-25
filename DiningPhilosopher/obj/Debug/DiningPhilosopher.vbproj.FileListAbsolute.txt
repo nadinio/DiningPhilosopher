@@ -9,3 +9,14 @@ D:\Workspace\DiningPhilosopher\DiningPhilosopher\obj\Debug\DiningPhilosopher.vbp
 D:\Workspace\DiningPhilosopher\DiningPhilosopher\obj\Debug\DiningPhilosopher.exe
 D:\Workspace\DiningPhilosopher\DiningPhilosopher\obj\Debug\DiningPhilosopher.xml
 D:\Workspace\DiningPhilosopher\DiningPhilosopher\obj\Debug\DiningPhilosopher.pdb
+C:\Workspace\DiningPhilosopher\bin\Debug\DiningPhilosopher.exe.config
+C:\Workspace\DiningPhilosopher\obj\Debug\DiningPhilosopher.xml
+C:\Workspace\DiningPhilosopher\bin\Debug\DiningPhilosopher.exe
+C:\Workspace\DiningPhilosopher\bin\Debug\DiningPhilosopher.pdb
+C:\Workspace\DiningPhilosopher\bin\Debug\DiningPhilosopher.xml
+C:\Workspace\DiningPhilosopher\obj\Debug\DiningPhilosopher.vbprojResolveAssemblyReference.cache
+C:\Workspace\DiningPhilosopher\obj\Debug\DiningPhilosopher.Form1.resources
+C:\Workspace\DiningPhilosopher\obj\Debug\DiningPhilosopher.Resources.resources
+C:\Workspace\DiningPhilosopher\obj\Debug\DiningPhilosopher.vbproj.GenerateResource.Cache
+C:\Workspace\DiningPhilosopher\obj\Debug\DiningPhilosopher.exe
+C:\Workspace\DiningPhilosopher\obj\Debug\DiningPhilosopher.pdb

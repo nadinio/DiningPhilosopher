@@ -22,7 +22,6 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.btnStart = New System.Windows.Forms.Button()
         Me.picPhil1 = New System.Windows.Forms.PictureBox()
         Me.picPhil2 = New System.Windows.Forms.PictureBox()
         Me.picPhil3 = New System.Windows.Forms.PictureBox()
@@ -44,15 +43,6 @@ Partial Class Form1
         CType(Me.picFork1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picFork2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'btnStart
-        '
-        Me.btnStart.Location = New System.Drawing.Point(406, 624)
-        Me.btnStart.Name = "btnStart"
-        Me.btnStart.Size = New System.Drawing.Size(75, 23)
-        Me.btnStart.TabIndex = 0
-        Me.btnStart.Text = "Start"
-        Me.btnStart.UseVisualStyleBackColor = True
         '
         'picPhil1
         '
@@ -158,7 +148,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(887, 659)
+        Me.ClientSize = New System.Drawing.Size(887, 639)
         Me.Controls.Add(Me.picFork2)
         Me.Controls.Add(Me.picFork1)
         Me.Controls.Add(Me.picFork4)
@@ -169,7 +159,6 @@ Partial Class Form1
         Me.Controls.Add(Me.picPhil3)
         Me.Controls.Add(Me.picPhil4)
         Me.Controls.Add(Me.picPhil0)
-        Me.Controls.Add(Me.btnStart)
         Me.Name = "Form1"
         Me.Text = "Dining Philosophers Problem"
         CType(Me.picPhil1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -185,8 +174,6 @@ Partial Class Form1
         Me.ResumeLayout(False)
 
     End Sub
-
-    Friend WithEvents btnStart As Button
     Friend WithEvents picPhil0 As PictureBox
     Friend WithEvents picPhil4 As PictureBox
     Friend WithEvents picPhil3 As PictureBox
